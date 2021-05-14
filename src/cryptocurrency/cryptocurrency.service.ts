@@ -27,7 +27,7 @@ export class CryptopcurrencyService {
         alias: Cryptopcurrency.alias,
         dollarvalue: Cryptopcurrency.dollarvalue,
         wayundermine: Cryptopcurrency.wayundermine,
-        
+        cryptovalue: Cryptopcurrency.cryptovalue
       };
     });
   }

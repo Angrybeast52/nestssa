@@ -19,7 +19,7 @@ export class Cryptopcurrency extends Document {
   wayundermine: string;
 
   @Prop({ required: true })
-  a: IComparedCryptopcurrency[];
+  cryptovalue: IComparedCryptopcurrency[];
 }
 
 export const CryptopcurrencySchema = SchemaFactory.createForClass(Cryptopcurrency);

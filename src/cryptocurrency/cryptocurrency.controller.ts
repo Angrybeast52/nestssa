@@ -35,9 +35,9 @@ import {
     @Put(':id')
     async updateById(
       @Param('id') id: string,
-      @Body() user: UpdateCrytocurrencyDto,
+      @Body() Cryptopcurrency: UpdateCrytocurrencyDto,
     ): Promise<GetIdCrytocurrencyDto> {
-      return this.CryptopcurrencyService.updateById(id, user);
+      return this.CryptopcurrencyService.updateById(id, Cryptopcurrency);
     }
   
     @Delete(':id')
