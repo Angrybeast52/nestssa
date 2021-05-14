@@ -13,7 +13,7 @@ import {
   import { GetIdCrytocurrencyDto, GetCrytocurrencyDto } from './dtos/get-Cryptocurrency.dto';
   import { UpdateCrytocurrencyDto } from './dtos/update-Cryptocurrency.dto';
   
-  @Controller('user')
+  @Controller('cryptopcurrency')
   export class CryptocurrencyController {
     constructor(private CryptopcurrencyService: CryptopcurrencyService) {}
   
